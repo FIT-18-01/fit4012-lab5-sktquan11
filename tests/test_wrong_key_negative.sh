@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-make all >/dev/null
+#make all >/dev/null
 cat > keyfile <<'KEY'
 01 04 02 03 01 03 04 0A 09 0B 07 0F 0F 06 03 00
 KEY
